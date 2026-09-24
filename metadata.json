@@ -1,0 +1,6 @@
+{
+  "name": "TỔ NGỮ VĂN - GDCD TRƯỜNG THCS HUỲNH THÚC KHÁNG",
+  "description": "Nền tảng học tập Ngữ văn THCS Huỳnh Thúc Kháng - Hệ sinh thái AI định hướng tư duy đọc hiểu và viết văn Socratic cho học sinh lớp 6, 7, 8, 9.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
