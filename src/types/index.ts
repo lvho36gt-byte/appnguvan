@@ -13,8 +13,8 @@ export type NavItem =
 export type GradeLevel = '6' | '7' | '8' | '9';
 
 export interface UserProfile {
-  name: string;
-  className: string;
+  name?: string;
+  className?: string;
   school: string;
   avatar: string;
   totalExercises: number;

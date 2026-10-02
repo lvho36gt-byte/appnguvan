@@ -166,17 +166,17 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="relative">
               <img
                 src={user.avatar}
-                alt={user.name}
+                alt="Góc học tập"
                 className="w-9 h-9 rounded-xl object-cover ring-2 ring-[#4169F6]/20 group-hover:ring-[#4169F6] transition-all"
               />
               <span className="absolute -bottom-1 -right-1 w-3.5 h-3.5 bg-[#11B981] border-2 border-white dark:border-slate-900 rounded-full" />
             </div>
             <div className="hidden lg:block text-left">
               <p className="text-xs font-bold text-slate-900 dark:text-white group-hover:text-[#4169F6] transition-colors leading-tight">
-                {user.name}
+                Góc Học Tập
               </p>
               <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium">
-                {user.className} • THCS Huỳnh Thúc Kháng
+                THCS Huỳnh Thúc Kháng
               </p>
             </div>
           </div>

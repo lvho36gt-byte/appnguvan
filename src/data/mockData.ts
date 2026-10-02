@@ -7,8 +7,6 @@ import {
 } from '../types';
 
 export const initialUserProfile: UserProfile = {
-  name: 'Nguyễn Minh Khang',
-  className: '8/2',
   school: 'THCS Huỳnh Thúc Kháng',
   avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80',
   totalExercises: 28,

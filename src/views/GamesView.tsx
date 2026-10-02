@@ -233,11 +233,11 @@ export const GamesView: React.FC<GamesViewProps> = ({ onAddToast }) => {
 
             <div className="space-y-2.5">
               {[
-                { rank: 1, name: 'Trần Bảo Anh', class: '9/1', points: '1450 XP', avatar: '🥇' },
-                { rank: 2, name: 'Nguyễn Minh Khang (Em)', class: '8/2', points: `${score} XP`, avatar: '🥈' },
-                { rank: 3, name: 'Lê Hoàng Nam', class: '8/3', points: '890 XP', avatar: '🥉' },
-                { rank: 4, name: 'Phạm Quỳnh Chi', class: '7/2', points: '820 XP', avatar: '🌟' },
-                { rank: 5, name: 'Đỗ Gia Huy', class: '6/1', points: '760 XP', avatar: '✨' },
+                { rank: 1, title: 'Hạng 1: Quán quân Tiếng Việt', badge: 'Bậc thầy tu từ & từ vựng', points: '1450 XP', avatar: '🥇' },
+                { rank: 2, title: 'Hạng 2: Điểm rèn luyện của bạn', badge: 'Đang tích cực thi đua', points: `${score} XP`, avatar: '🥈' },
+                { rank: 3, title: 'Hạng 3: Cây bút lập luận sắc sảo', badge: 'Hiệp sĩ luận điểm chuẩn xác', points: '890 XP', avatar: '🥉' },
+                { rank: 4, title: 'Hạng 4: Nhà thám hiểm từ ngữ', badge: 'Chinh phục 50+ câu hỏi tu từ', points: '820 XP', avatar: '🌟' },
+                { rank: 5, title: 'Hạng 5: Chuyên cần ngữ văn', badge: 'Tư duy nhanh & đúng quy tắc', points: '760 XP', avatar: '✨' },
               ].map((item, idx) => (
                 <div
                   key={idx}
@@ -250,8 +250,8 @@ export const GamesView: React.FC<GamesViewProps> = ({ onAddToast }) => {
                   <div className="flex items-center gap-2.5">
                     <span className="text-base">{item.avatar}</span>
                     <div>
-                      <p className="text-slate-900 dark:text-white font-bold">{item.name}</p>
-                      <p className="text-[10px] text-slate-400">Lớp {item.class}</p>
+                      <p className="text-slate-900 dark:text-white font-bold">{item.title}</p>
+                      <p className="text-[10px] text-slate-500 dark:text-slate-400">{item.badge}</p>
                     </div>
                   </div>
                   <span className="font-bold text-[#FF7A00]">{item.points}</span>
